@@ -27,10 +27,7 @@ export default function Home() {
             <div className="container" style={{ marginTop: '80px' }}>
                 <div className="home-content">
                     <div className="home-image">
-                        <img
-                            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-                            alt="Mi foto"
-                        />
+
                     </div>
                     <div className="home-text">
                         <h1>Bienvenido a mi portafolio</h1>
