@@ -11,21 +11,21 @@ export default function Projects() {
     const projects = [
         {
             id: 'proyecto-1',
-            title: 'Proyecto 1',
-            description: 'Descripción breve del proyecto 1',
+            title: 'Proyecto de ingenieria de software',
+            description: 'Desarrollo de pagina web para aduana chilena',
             image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
         },
         {
             id: 'proyecto-2',
-            title: 'Proyecto 2',
-            description: 'Descripción breve del proyecto 2',
+            title: 'Proyecto de fullstack',
+            description: 'Desarrollo de aplicacion movil para ayuda de estudiantes naurodivergentes',
             image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
         },
         {
             id: 'proyecto-3',
-            title: 'Proyecto 3',
-            description: 'Descripción breve del proyecto 3',
-            image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+            title: 'Proyecto de fullstack ',
+            description: 'Desarrollo de pagina web para emprendimiento de venta de abarrotes',
+            image: "assets/images/foto.jpg"
         }
     ];
 
@@ -66,8 +66,8 @@ function ProjectDetail({ projectId }: { projectId: string }) {
             image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
         },
         'proyecto-3': {
-            title: 'Proyecto 3',
-            description: 'Descripción detallada del proyecto 3...',
+            title: 'Proyecto de fullstack',
+            description: 'Desarrollar pagina web para emprendimiento de venta de verduras y demas',
             technologies: ['Angular', 'TypeScript', 'MongoDB'],
             image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
         },

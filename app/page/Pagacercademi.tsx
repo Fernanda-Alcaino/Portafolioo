@@ -39,19 +39,11 @@ const PaginaAcercaDe: React.FC = () => {
                                     Soy Fernanda Alcaino, una estudiante del instituto profesional Duoc Uc con pasión por crear soluciones tecnológicas.
                                 </Paragraph>
                                 <Paragraph style={{ fontSize: '16px', lineHeight: '1.7', color: '#666' }}>
-                                    Mi experiencia incluye trabajar con tecnologías como React, Node.js, Python y bases de datos SQL y NoSQL. Me gusta mantenerme actualizada con las últimas tendencias en desarrollo web y participar en proyectos desafiantes.
+                                    Mi experiencia incluye trabajar con java, python y estoy aprendiendo HTML. Me gusta mantenerme actualizada con el desarrollo de la tecnologia y participar en proyectos desafiantes.
                                 </Paragraph>
                             </Col>
                             <Col xs={24} lg={12}>
-                                <img
-                                    src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-                                    alt="Acerca de mí"
-                                    style={{
-                                        width: '100%',
-                                        borderRadius: '10px',
-                                        boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
-                                    }}
-                                />
+
                             </Col>
                         </Row>
 

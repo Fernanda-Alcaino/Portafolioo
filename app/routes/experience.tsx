@@ -3,17 +3,16 @@ export default function Experience() {
     const experiences = [
         {
             id: 1,
-            title: 'Desarrollador Frontend',
-            company: 'Empresa A',
-            period: '2020-2022',
-            description: 'Descripción de las responsabilidades y logros en la Empresa A'
+            title: 'Certificacion',
+            period: '2024',
+            description: 'Certificacion de Python'
         },
         {
             id: 2,
             title: 'Desarrollador Full Stack',
-            company: 'Empresa B',
-            period: '2018-2020',
-            description: 'Descripción de las responsabilidades y logros en la Empresa B'
+            company: 'Proyectos de Instituto',
+            period: '2024',
+            description: 'Desarrollo de proyectos de clase de fullstack'
         }
     ];
 
